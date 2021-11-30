@@ -1,0 +1,2179 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* BAGROUND */
+.bg-rumah {
+  display: flex;
+  width: 100%;
+  z-index: -9999;
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  justify-content: space-between;
+}
+
+.bg-rumah-kiri {
+  height: 100%;
+  width: 420px;
+  top: 0;
+  left: 0;
+}
+
+.bg-rumah-kanan {
+  width: 100%;
+  height: 60%;
+  padding-left: 80%;
+}
+
+/* content */
+
+/* satu */
+
+.table-satu {
+  position: relative;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 3rem;
+  margin-left: 10%;
+}
+
+.satu {
+  width: 100%;
+  justify-content: space-between;
+}
+
+table .satu .gambar-satu {
+  width: 110vh;
+}
+table .satu .teks-satu {
+  position: absolute;
+  text-align: left;
+  width: 32%;
+  top: 0;
+  margin-left: 1rem;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  box-shadow: 5px 5px 2px 1px rgb(224, 224, 224);
+}
+
+table .satu .teks-satu p:nth-child(1) {
+  color: #124265;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+table .satu .teks-satu p:nth-child(3) {
+  color: #00192ba4;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+table .satu .teks-satu p:nth-child(4) {
+  color: #00192ba4;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* akhir satu */
+
+/* dua... */
+.table-dua,
+.table-tiga,
+.table-empat,
+.table-lima,
+.table-enam,
+.table-tujuh,
+.table-delapan,
+.table-sembilan,
+.table-sepuluh,
+.table-sebelas,
+.table-duabelas,
+.table-tigabelas,
+.table-empatbelas,
+.table-limabelas,
+.table-enambelas,
+.table-tujuhbelas,
+.table-delapanbelas,
+.table-sembilanbelas,
+.table-duapuluh,
+.table-duasatu,
+.table-duadua,
+.table-duatiga,
+.table-duaempat,
+.table-dualima,
+.table-duaenam,
+.table-duatujuh,
+.table-duadelapan,
+.table-duasembilan,
+.table-tigapuluh,
+.table-tigasatu,
+.table-tigadua,
+.table-tigatiga,
+.table-tigaempat,
+.table-tigalima {
+  position: relative;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 10%;
+}
+
+.dua,
+.tiga,
+.empat,
+.lima,
+.enam,
+.tujuh,
+.delapan,
+.sembilan,
+.sepuluh,
+.sebelas,
+.duabelas,
+.tigabelas,
+.empatbelas,
+.limabelas,
+.enambelas,
+.tujuhbelas,
+.delapanbelas,
+.sembilanbelas,
+.duapuluh,
+.duasatu,
+.duadua,
+.duatiga,
+.duaempat,
+.dualima,
+.duaenam,
+.duatujuh,
+.duadelapan,
+.duasembilan,
+.tigapuluh,
+.tigasatu,
+.tigadua,
+.tigatiga,
+.tigaempat,
+.tigalima {
+  width: 100%;
+  justify-content: space-between;
+}
+
+Table .dua .gambar-dua,
+Table .tiga .gambar-tiga,
+Table .empat .gambar-empat,
+Table .lima .gambar-lima,
+Table .enam .gambar-enam,
+Table .tujuh .gambar-tujuh,
+Table .delapan .gambar-delapan,
+Table .sembilan .gambar-sembilan,
+table .sepuluh .gambar-sepuluh,
+table .sebelas .gambar-sebelas,
+table .duabelas .gambar-duabelas,
+table .tigabelas .gambar-tigabelas,
+table .empatbelas .gambar-empatbelas,
+table .limabelas .gambar-limabelas,
+table .enambelas .gambar-enambelas,
+table .tujuhbelas .gambar-tujuhbelas,
+table .delapanbelas .gambar-delapanbelas,
+table .sembilanbelas .gambar-sembilanbelas,
+table .duapuluh .gambar-duapuluh,
+table .duasatu .gambar-duasatu,
+table .duadua .gambar-duadua,
+table .duatiga .gambar-duatiga,
+table .duaempat .gambar-duaempat,
+table .dualima .gambar-dualima,
+table .duaenam .gambar-duaenam,
+table .duatujuh .gambar-duatujuh,
+table .duadelapan .gambar-duadelapan,
+table .duasembilan .gambar-duasembilan,
+table .tigapuluh .gambar-tigapuluh,
+table .tigasatu .gambar-tigasatu,
+table .tigadua .gambar-tigadua,
+table .tigatiga .gambar-tigatiga,
+table .tigaempat .gambar-tigaempat,
+table .tigalima .gambar-tigalima {
+  width: 110vh;
+}
+Table .dua .teks-dua,
+Table .tiga .teks-tiga,
+Table .empat .teks-empat,
+Table .lima .teks-lima,
+Table .enam .teks-enam,
+Table .tujuh .teks-tujuh,
+Table .delapan .teks-delapan,
+Table .sembilan .teks-sembilan,
+table .sepuluh .teks-sepuluh,
+table .sebelas .teks-sebelas,
+table .duabelas .teks-duabelas,
+table .tigabelas .teks-tigabelas,
+table .empatbelas .teks-empatbelas,
+table .limabelas .teks-limabelas,
+table .enambelas .teks-enambelas,
+table .tujuhbelas .teks-tujuhbelas,
+table .delapanbelas .teks-delapanbelas,
+table .sembilanbelas .teks-sembilanbelas,
+table .duapuluh .teks-duapuluh,
+table .duasatu .teks-duasatu,
+table .duadua .teks-duadua,
+table .duatiga .teks-duatiga,
+table .duaempat .teks-duaempat,
+table .dualima .teks-dualima,
+table .duaenam .teks-duaenam,
+table .duatujuh .teks-duatujuh,
+table .duadelapan .teks-duadelapan,
+table .duasembilan .teks-duasembilan,
+table .tigapuluh .teks-tigapuluh,
+table .tigasatu .teks-tigasatu,
+table .tigadua .teks-tigadua,
+table .tigatiga .teks-tigatiga,
+table .tigaempat .teks-tigaempat,
+table .tigalima .teks-tigalima {
+  position: absolute;
+  text-align: left;
+  width: 32%;
+  top: 0;
+  margin-left: 1rem;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  box-shadow: 5px 5px 2px 1px rgb(224, 224, 224);
+}
+
+Table .dua .teks-dua p:nth-child(1),
+Table .tiga .teks-tiga p:nth-child(1),
+Table .empat .teks-empat p:nth-child(1),
+Table .lima .teks-lima p:nth-child(1),
+Table .enam .teks-enam p:nth-child(1),
+Table .tujuh .teks-tujuh p:nth-child(1),
+Table .delapan .teks-delapan p:nth-child(1),
+Table .sembilan .teks-sembilan p:nth-child(1),
+table .sepuluh .teks-sepuluh p:nth-child(1),
+table .sebelas .teks-sebelas p:nth-child(1),
+table .duabelas .teks-duabelas p:nth-child(1),
+table .tigabelas .teks-tigabelas p:nth-child(1),
+table .empatbelas .teks-empatbelas p:nth-child(1),
+table .limabelas .teks-limabelas p:nth-child(1),
+table .enambelas .teks-enambelas p:nth-child(1),
+table .tujuhbelas .teks-tujuhbelas p:nth-child(1),
+table .delapanbelas .teks-delapanbelas p:nth-child(1),
+table .sembilanbelas .teks-sembilanbelas p:nth-child(1),
+table .duapuluh .teks-duapuluh p:nth-child(1),
+table .duasatu .teks-duasatu p:nth-child(1),
+table .duadua .teks-duadua p:nth-child(1),
+table .duatiga .teks-duatiga p:nth-child(1),
+table .duaempat .teks-duaempat p:nth-child(1),
+table .dualima .teks-dualima p:nth-child(1),
+table .duaenam .teks-duaenam p:nth-child(1),
+table .duatujuh .teks-duatujuh p:nth-child(1),
+table .duadelapan .teks-duadelapan p:nth-child(1),
+table .duasembilan .teks-duasembilan p:nth-child(1),
+table .tigapuluh .teks-tigapuluh p:nth-child(1),
+table .tigasatu .teks-tigasatu p:nth-child(1),
+table .tigadua .teks-tigadua p:nth-child(1),
+table .tigatiga .teks-tigatiga p:nth-child(1),
+table .tigaempat .teks-tigaempat p:nth-child(1),
+table .tigalima .teks-tigalima p:nth-child(1) {
+  color: #124265;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+Table .dua .teks-dua p:nth-child(3),
+Table .tiga .teks-tiga p:nth-child(3),
+Table .empat .teks-empat p:nth-child(3),
+Table .lima .teks-lima p:nth-child(3),
+Table .enam .teks-enam p:nth-child(3),
+Table .tujuh .teks-tujuh p:nth-child(3),
+Table .delapan .teks-delapan p:nth-child(3),
+Table .sembilan .teks-sembilan p:nth-child(3),
+table .sepuluh .teks-sepuluh p:nth-child(3),
+table .sebelas .teks-sebelas p:nth-child(3),
+table .duabelas .teks-duabelas p:nth-child(3),
+table .tigabelas .teks-tigabelas p:nth-child(3),
+table .empatbelas .teks-empatbelas p:nth-child(3),
+table .limabelas .teks-limabelas p:nth-child(3),
+table .enambelas .teks-enambelas p:nth-child(3),
+table .tujuhbelas .teks-tujuhbelas p:nth-child(3),
+table .delapanbelas .teks-delapanbelas p:nth-child(3),
+table .sembilanbelas .teks-sembilanbelas p:nth-child(3),
+table .duapuluh .teks-duapuluh p:nth-child(3),
+table .duasatu .teks-duasatu p:nth-child(3),
+table .duadua .teks-duadua p:nth-child(3),
+table .duatiga .teks-duatiga p:nth-child(3),
+table .duaempat .teks-duaempat p:nth-child(3),
+table .dualima .teks-dualima p:nth-child(3),
+table .duaenam .teks-duaenam p:nth-child(3),
+table .duatujuh .teks-duatujuh p:nth-child(3),
+table .duadelapan .teks-duadelapan p:nth-child(3),
+table .duasembilan .teks-duasembilan p:nth-child(3),
+table .tigapuluh .teks-tigapuluh p:nth-child(3),
+table .tigasatu .teks-tigasatu p:nth-child(3),
+table .tigadua .teks-tigadua p:nth-child(3),
+table .tigatiga .teks-tigatiga p:nth-child(3),
+table .tigaempat .teks-tigaempat p:nth-child(3),
+table .tigalima .teks-tigalima p:nth-child(3) {
+  color: #00192ba4;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+Table .dua .teks-dua p:nth-child(4),
+Table .tiga .teks-tiga p:nth-child(4),
+Table .empat .teks-empat p:nth-child(4),
+Table .lima .teks-lima p:nth-child(4),
+Table .enam .teks-enam p:nth-child(4),
+Table .tujuh .teks-tujuh p:nth-child(4),
+Table .delapan .teks-delapan p:nth-child(4),
+Table .sembilan .teks-sembilan p:nth-child(4),
+table .sepuluh .teks-sepuluh p:nth-child(4),
+table .sebelas .teks-sebelas p:nth-child(4),
+table .duabelas .teks-duabelas p:nth-child(4),
+table .tigabelas .teks-tigabelas p:nth-child(4),
+table .empatbelas .teks-empatbelas p:nth-child(4),
+table .limabelas .teks-limabelas p:nth-child(4),
+table .enambelas .teks-enambelas p:nth-child(4),
+table .tujuhbelas .teks-tujuhbelas p:nth-child(4),
+table .delapanbelas .teks-delapanbelas p:nth-child(4),
+table .sembilanbelas .teks-sembilanbelas p:nth-child(4),
+table .duapuluh .teks-duapuluh p:nth-child(4),
+table .duasatu .teks-duasatu p:nth-child(4),
+table .duadua .teks-duadua p:nth-child(4),
+table .duatiga .teks-duatiga p:nth-child(4),
+table .duaempat .teks-duaempat p:nth-child(4),
+table .dualima .teks-dualima p:nth-child(4),
+table .duaenam .teks-duaenam p:nth-child(4),
+table .duatujuh .teks-duatujuh p:nth-child(4),
+table .duadelapan .teks-duadelapan p:nth-child(4),
+table .duasembilan .teks-duasembilan p:nth-child(4),
+table .tigapuluh .teks-tigapuluh p:nth-child(4),
+table .tigasatu .teks-tigasatu p:nth-child(4),
+table .tigadua .teks-tigadua p:nth-child(4),
+table .tigatiga .teks-tigatiga p:nth-child(4),
+table .tigaempat .teks-tigaempat p:nth-child(4),
+table .tigalima .teks-tigalima p:nth-child(4) {
+  color: #00192ba4;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* akrir dua... */
+
+section {
+  position: relative;
+  margin-top: 1rem;
+  margin-right: 7%;
+}
+.page-link {
+  color: #124265;
+}
+
+/* DEKSTOP */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  section {
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 7%;
+  }
+  .bg-rumah-kiri {
+    height: 100%;
+    width: 350px;
+  }
+  .table-satu {
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 8%;
+  }
+  .satu {
+    width: 100%;
+  }
+
+  table .satu .gambar-satu {
+    width: 95vh;
+  }
+  table .satu .teks-satu {
+    width: 40%;
+  }
+
+  table .satu .teks-satu p:nth-child(1) {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  table .satu .teks-satu p:nth-child(3) {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  table .satu .teks-satu p:nth-child(4) {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .table-dua,
+  .table-tiga,
+  .table-empat,
+  .table-lima,
+  .table-enam,
+  .table-tujuh,
+  .table-delapan,
+  .table-sembilan,
+  .table-sepuluh,
+  .table-sebelas,
+  .table-duabelas,
+  .table-tigabelas,
+  .table-empatbelas,
+  .table-limabelas,
+  .table-enambelas,
+  .table-tujuhbelas,
+  .table-delapanbelas,
+  .table-sembilanbelas,
+  .table-duapuluh,
+  .table-duasatu,
+  .table-duadua,
+  .table-duatiga,
+  .table-duaempat,
+  .table-dualima,
+  .table-duaenam,
+  .table-duatujuh,
+  .table-duadelapan,
+  .table-duasembilan,
+  .table-tigapuluh,
+  .table-tigasatu,
+  .table-tigadua,
+  .table-tigatiga,
+  .table-tigaempat,
+  .table-tigalima {
+    width: 70%;
+    margin-top: 1.5rem;
+    margin-left: 8%;
+  }
+
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan,
+  .sepuluh,
+  .sebelas,
+  .duabelas,
+  .tigabelas,
+  .empatbelas,
+  .limabelas,
+  .enambelas,
+  .tujuhbelas,
+  .delapanbelas,
+  .sembilanbelas,
+  .duapuluh,
+  .duasatu,
+  .duadua,
+  .duatiga,
+  .duaempat,
+  .dualima,
+  .duaenam,
+  .duatujuh,
+  .duadelapan,
+  .duasembilan,
+  .tigapuluh,
+  .tigasatu,
+  .tigadua,
+  .tigatiga,
+  .tigaempat,
+  .tigalima {
+    width: 100%;
+  }
+
+  Table .dua .gambar-dua,
+  Table .tiga .gambar-tiga,
+  Table .empat .gambar-empat,
+  Table .lima .gambar-lima,
+  Table .enam .gambar-enam,
+  Table .tujuh .gambar-tujuh,
+  Table .delapan .gambar-delapan,
+  Table .sembilan .gambar-sembilan,
+  table .sepuluh .gambar-sepuluh,
+  table .sebelas .gambar-sebelas,
+  table .duabelas .gambar-duabelas,
+  table .tigabelas .gambar-tigabelas,
+  table .empatbelas .gambar-empatbelas,
+  table .limabelas .gambar-limabelas,
+  table .enambelas .gambar-enambelas,
+  table .tujuhbelas .gambar-tujuhbelas,
+  table .delapanbelas .gambar-delapanbelas,
+  table .sembilanbelas .gambar-sembilanbelas,
+  table .duapuluh .gambar-duapuluh,
+  table .duasatu .gambar-duasatu,
+  table .duadua .gambar-duadua,
+  table .duatiga .gambar-duatiga,
+  table .duaempat .gambar-duaempat,
+  table .dualima .gambar-dualima,
+  table .duaenam .gambar-duaenam,
+  table .duatujuh .gambar-duatujuh,
+  table .duadelapan .gambar-duadelapan,
+  table .duasembilan .gambar-duasembilan,
+  table .tigapuluh .gambar-tigapuluh,
+  table .tigasatu .gambar-tigasatu,
+  table .tigadua .gambar-tigadua,
+  table .tigatiga .gambar-tigatiga,
+  table .tigaempat .gambar-tigaempat,
+  table .tigalima .gambar-tigalima {
+    width: 95vh;
+  }
+  Table .dua .teks-dua,
+  Table .tiga .teks-tiga,
+  Table .empat .teks-empat,
+  Table .lima .teks-lima,
+  Table .enam .teks-enam,
+  Table .tujuh .teks-tujuh,
+  Table .delapan .teks-delapan,
+  Table .sembilan .teks-sembilan,
+  table .sepuluh .teks-sepuluh,
+  table .sebelas .teks-sebelas,
+  table .duabelas .teks-duabelas,
+  table .tigabelas .teks-tigabelas,
+  table .empatbelas .teks-empatbelas,
+  table .limabelas .teks-limabelas,
+  table .enambelas .teks-enambelas,
+  table .tujuhbelas .teks-tujuhbelas,
+  table .delapanbelas .teks-delapanbelas,
+  table .sembilanbelas .teks-sembilanbelas,
+  table .duapuluh .teks-duapuluh,
+  table .duasatu .teks-duasatu,
+  table .duadua .teks-duadua,
+  table .duatiga .teks-duatiga,
+  table .duaempat .teks-duaempat,
+  table .dualima .teks-dualima,
+  table .duaenam .teks-duaenam,
+  table .duatujuh .teks-duatujuh,
+  table .duadelapan .teks-duadelapan,
+  table .duasembilan .teks-duasembilan,
+  table .tigapuluh .teks-tigapuluh,
+  table .tigasatu .teks-tigasatu,
+  table .tigadua .teks-tigadua,
+  table .tigatiga .teks-tigatiga,
+  table .tigaempat .teks-tigaempat,
+  table .tigalima .teks-tigalima {
+    width: 40%;
+  }
+
+  Table .dua .teks-dua p:nth-child(1),
+  Table .tiga .teks-tiga p:nth-child(1),
+  Table .empat .teks-empat p:nth-child(1),
+  Table .lima .teks-lima p:nth-child(1),
+  Table .enam .teks-enam p:nth-child(1),
+  Table .tujuh .teks-tujuh p:nth-child(1),
+  Table .delapan .teks-delapan p:nth-child(1),
+  Table .sembilan .teks-sembilan p:nth-child(1),
+  table .sepuluh .teks-sepuluh p:nth-child(1),
+  table .sebelas .teks-sebelas p:nth-child(1),
+  table .duabelas .teks-duabelas p:nth-child(1),
+  table .tigabelas .teks-tigabelas p:nth-child(1),
+  table .empatbelas .teks-empatbelas p:nth-child(1),
+  table .limabelas .teks-limabelas p:nth-child(1),
+  table .enambelas .teks-enambelas p:nth-child(1),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(1),
+  table .delapanbelas .teks-delapanbelas p:nth-child(1),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(1),
+  table .duapuluh .teks-duapuluh p:nth-child(1),
+  table .duasatu .teks-duasatu p:nth-child(1),
+  table .duadua .teks-duadua p:nth-child(1),
+  table .duatiga .teks-duatiga p:nth-child(1),
+  table .duaempat .teks-duaempat p:nth-child(1),
+  table .dualima .teks-dualima p:nth-child(1),
+  table .duaenam .teks-duaenam p:nth-child(1),
+  table .duatujuh .teks-duatujuh p:nth-child(1),
+  table .duadelapan .teks-duadelapan p:nth-child(1),
+  table .duasembilan .teks-duasembilan p:nth-child(1),
+  table .tigapuluh .teks-tigapuluh p:nth-child(1),
+  table .tigasatu .teks-tigasatu p:nth-child(1),
+  table .tigadua .teks-tigadua p:nth-child(1),
+  table .tigatiga .teks-tigatiga p:nth-child(1),
+  table .tigaempat .teks-tigaempat p:nth-child(1),
+  table .tigalima .teks-tigalima p:nth-child(1) {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  Table .dua .teks-dua p:nth-child(3),
+  Table .tiga .teks-tiga p:nth-child(3),
+  Table .empat .teks-empat p:nth-child(3),
+  Table .lima .teks-lima p:nth-child(3),
+  Table .enam .teks-enam p:nth-child(3),
+  Table .tujuh .teks-tujuh p:nth-child(3),
+  Table .delapan .teks-delapan p:nth-child(3),
+  Table .sembilan .teks-sembilan p:nth-child(3),
+  table .sepuluh .teks-sepuluh p:nth-child(3),
+  table .sebelas .teks-sebelas p:nth-child(3),
+  table .duabelas .teks-duabelas p:nth-child(3),
+  table .tigabelas .teks-tigabelas p:nth-child(3),
+  table .empatbelas .teks-empatbelas p:nth-child(3),
+  table .limabelas .teks-limabelas p:nth-child(3),
+  table .enambelas .teks-enambelas p:nth-child(3),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(3),
+  table .delapanbelas .teks-delapanbelas p:nth-child(3),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(3),
+  table .duapuluh .teks-duapuluh p:nth-child(3),
+  table .duasatu .teks-duasatu p:nth-child(3),
+  table .duadua .teks-duadua p:nth-child(3),
+  table .duatiga .teks-duatiga p:nth-child(3),
+  table .duaempat .teks-duaempat p:nth-child(3),
+  table .dualima .teks-dualima p:nth-child(3),
+  table .duaenam .teks-duaenam p:nth-child(3),
+  table .duatujuh .teks-duatujuh p:nth-child(3),
+  table .duadelapan .teks-duadelapan p:nth-child(3),
+  table .duasembilan .teks-duasembilan p:nth-child(3),
+  table .tigapuluh .teks-tigapuluh p:nth-child(3),
+  table .tigasatu .teks-tigasatu p:nth-child(3),
+  table .tigadua .teks-tigadua p:nth-child(3),
+  table .tigatiga .teks-tigatiga p:nth-child(3),
+  table .tigaempat .teks-tigaempat p:nth-child(3),
+  table .tigalima .teks-tigalima p:nth-child(3) {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  Table .dua .teks-dua p:nth-child(4),
+  Table .tiga .teks-tiga p:nth-child(4),
+  Table .empat .teks-empat p:nth-child(4),
+  Table .lima .teks-lima p:nth-child(4),
+  Table .enam .teks-enam p:nth-child(4),
+  Table .tujuh .teks-tujuh p:nth-child(4),
+  Table .delapan .teks-delapan p:nth-child(4),
+  Table .sembilan .teks-sembilan p:nth-child(4),
+  table .sepuluh .teks-sepuluh p:nth-child(4),
+  table .sebelas .teks-sebelas p:nth-child(4),
+  table .duabelas .teks-duabelas p:nth-child(4),
+  table .tigabelas .teks-tigabelas p:nth-child(4),
+  table .empatbelas .teks-empatbelas p:nth-child(4),
+  table .limabelas .teks-limabelas p:nth-child(4),
+  table .enambelas .teks-enambelas p:nth-child(4),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(4),
+  table .delapanbelas .teks-delapanbelas p:nth-child(4),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(4),
+  table .duapuluh .teks-duapuluh p:nth-child(4),
+  table .duasatu .teks-duasatu p:nth-child(4),
+  table .duadua .teks-duadua p:nth-child(4),
+  table .duatiga .teks-duatiga p:nth-child(4),
+  table .duaempat .teks-duaempat p:nth-child(4),
+  table .dualima .teks-dualima p:nth-child(4),
+  table .duaenam .teks-duaenam p:nth-child(4),
+  table .duatujuh .teks-duatujuh p:nth-child(4),
+  table .duadelapan .teks-duadelapan p:nth-child(4),
+  table .duasembilan .teks-duasembilan p:nth-child(4),
+  table .tigapuluh .teks-tigapuluh p:nth-child(4),
+  table .tigasatu .teks-tigasatu p:nth-child(4),
+  table .tigadua .teks-tigadua p:nth-child(4),
+  table .tigatiga .teks-tigatiga p:nth-child(4),
+  table .tigaempat .teks-tigaempat p:nth-child(4),
+  table .tigalima .teks-tigalima p:nth-child(4) {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  section {
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 8%;
+  }
+  .bg-rumah-kiri {
+    height: 100%;
+    width: 250px;
+  }
+  .table-satu {
+    width: 70%;
+    margin-top: 3rem;
+    margin-left: 6%;
+  }
+  .satu {
+    width: 100%;
+  }
+
+  table .satu .gambar-satu {
+    width: 70vh;
+  }
+  table .satu .teks-satu {
+    width: 40%;
+    margin-left: 0.5rem;
+  }
+
+  table .satu .teks-satu p:nth-child(1) {
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  table .satu .teks-satu p:nth-child(3) {
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: -10px;
+  }
+  table .satu .teks-satu p:nth-child(4) {
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: -10px;
+  }
+  .table-dua,
+  .table-tiga,
+  .table-empat,
+  .table-lima,
+  .table-enam,
+  .table-tujuh,
+  .table-delapan,
+  .table-sembilan,
+  .table-sepuluh,
+  .table-sebelas,
+  .table-duabelas,
+  .table-tigabelas,
+  .table-empatbelas,
+  .table-limabelas,
+  .table-enambelas,
+  .table-tujuhbelas,
+  .table-delapanbelas,
+  .table-sembilanbelas,
+  .table-duapuluh,
+  .table-duasatu,
+  .table-duadua,
+  .table-duatiga,
+  .table-duaempat,
+  .table-dualima,
+  .table-duaenam,
+  .table-duatujuh,
+  .table-duadelapan,
+  .table-duasembilan,
+  .table-tigapuluh,
+  .table-tigasatu,
+  .table-tigadua,
+  .table-tigatiga,
+  .table-tigaempat,
+  .table-tigalima {
+    width: 70%;
+    margin-top: 1rem;
+    margin-left: 6%;
+  }
+
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan,
+  .sepuluh,
+  .sebelas,
+  .duabelas,
+  .tigabelas,
+  .empatbelas,
+  .limabelas,
+  .enambelas,
+  .tujuhbelas,
+  .delapanbelas,
+  .sembilanbelas,
+  .duapuluh,
+  .duasatu,
+  .duadua,
+  .duatiga,
+  .duaempat,
+  .dualima,
+  .duaenam,
+  .duatujuh,
+  .duadelapan,
+  .duasembilan,
+  .tigapuluh,
+  .tigasatu,
+  .tigadua,
+  .tigatiga,
+  .tigaempat,
+  .tigalima {
+    width: 100%;
+  }
+
+  Table .dua .gambar-dua,
+  Table .tiga .gambar-tiga,
+  Table .empat .gambar-empat,
+  Table .lima .gambar-lima,
+  Table .enam .gambar-enam,
+  Table .tujuh .gambar-tujuh,
+  Table .delapan .gambar-delapan,
+  Table .sembilan .gambar-sembilan,
+  table .sepuluh .gambar-sepuluh,
+  table .sebelas .gambar-sebelas,
+  table .duabelas .gambar-duabelas,
+  table .tigabelas .gambar-tigabelas,
+  table .empatbelas .gambar-empatbelas,
+  table .limabelas .gambar-limabelas,
+  table .enambelas .gambar-enambelas,
+  table .tujuhbelas .gambar-tujuhbelas,
+  table .delapanbelas .gambar-delapanbelas,
+  table .sembilanbelas .gambar-sembilanbelas,
+  table .duapuluh .gambar-duapuluh,
+  table .duasatu .gambar-duasatu,
+  table .duadua .gambar-duadua,
+  table .duatiga .gambar-duatiga,
+  table .duaempat .gambar-duaempat,
+  table .dualima .gambar-dualima,
+  table .duaenam .gambar-duaenam,
+  table .duatujuh .gambar-duatujuh,
+  table .duadelapan .gambar-duadelapan,
+  table .duasembilan .gambar-duasembilan,
+  table .tigapuluh .gambar-tigapuluh,
+  table .tigasatu .gambar-tigasatu,
+  table .tigadua .gambar-tigadua,
+  table .tigatiga .gambar-tigatiga,
+  table .tigaempat .gambar-tigaempat,
+  table .tigalima .gambar-tigalima {
+    width: 70vh;
+  }
+  Table .dua .teks-dua,
+  Table .tiga .teks-tiga,
+  Table .empat .teks-empat,
+  Table .lima .teks-lima,
+  Table .enam .teks-enam,
+  Table .tujuh .teks-tujuh,
+  Table .delapan .teks-delapan,
+  Table .sembilan .teks-sembilan,
+  table .sepuluh .teks-sepuluh,
+  table .sebelas .teks-sebelas,
+  table .duabelas .teks-duabelas,
+  table .tigabelas .teks-tigabelas,
+  table .empatbelas .teks-empatbelas,
+  table .limabelas .teks-limabelas,
+  table .enambelas .teks-enambelas,
+  table .tujuhbelas .teks-tujuhbelas,
+  table .delapanbelas .teks-delapanbelas,
+  table .sembilanbelas .teks-sembilanbelas,
+  table .duapuluh .teks-duapuluh,
+  table .duasatu .teks-duasatu,
+  table .duadua .teks-duadua,
+  table .duatiga .teks-duatiga,
+  table .duaempat .teks-duaempat,
+  table .dualima .teks-dualima,
+  table .duaenam .teks-duaenam,
+  table .duatujuh .teks-duatujuh,
+  table .duadelapan .teks-duadelapan,
+  table .duasembilan .teks-duasembilan,
+  table .tigapuluh .teks-tigapuluh,
+  table .tigasatu .teks-tigasatu,
+  table .tigadua .teks-tigadua,
+  table .tigatiga .teks-tigatiga,
+  table .tigaempat .teks-tigaempat,
+  table .tigalima .teks-tigalima {
+    width: 40%;
+    margin-left: 0.5rem;
+  }
+
+  Table .dua .teks-dua p:nth-child(1),
+  Table .tiga .teks-tiga p:nth-child(1),
+  Table .empat .teks-empat p:nth-child(1),
+  Table .lima .teks-lima p:nth-child(1),
+  Table .enam .teks-enam p:nth-child(1),
+  Table .tujuh .teks-tujuh p:nth-child(1),
+  Table .delapan .teks-delapan p:nth-child(1),
+  Table .sembilan .teks-sembilan p:nth-child(1),
+  table .sepuluh .teks-sepuluh p:nth-child(1),
+  table .sebelas .teks-sebelas p:nth-child(1),
+  table .duabelas .teks-duabelas p:nth-child(1),
+  table .tigabelas .teks-tigabelas p:nth-child(1),
+  table .empatbelas .teks-empatbelas p:nth-child(1),
+  table .limabelas .teks-limabelas p:nth-child(1),
+  table .enambelas .teks-enambelas p:nth-child(1),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(1),
+  table .delapanbelas .teks-delapanbelas p:nth-child(1),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(1),
+  table .duapuluh .teks-duapuluh p:nth-child(1),
+  table .duasatu .teks-duasatu p:nth-child(1),
+  table .duadua .teks-duadua p:nth-child(1),
+  table .duatiga .teks-duatiga p:nth-child(1),
+  table .duaempat .teks-duaempat p:nth-child(1),
+  table .dualima .teks-dualima p:nth-child(1),
+  table .duaenam .teks-duaenam p:nth-child(1),
+  table .duatujuh .teks-duatujuh p:nth-child(1),
+  table .duadelapan .teks-duadelapan p:nth-child(1),
+  table .duasembilan .teks-duasembilan p:nth-child(1),
+  table .tigapuluh .teks-tigapuluh p:nth-child(1),
+  table .tigasatu .teks-tigasatu p:nth-child(1),
+  table .tigadua .teks-tigadua p:nth-child(1),
+  table .tigatiga .teks-tigatiga p:nth-child(1),
+  table .tigaempat .teks-tigaempat p:nth-child(1),
+  table .tigalima .teks-tigalima p:nth-child(1) {
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  Table .dua .teks-dua p:nth-child(3),
+  Table .tiga .teks-tiga p:nth-child(3),
+  Table .empat .teks-empat p:nth-child(3),
+  Table .lima .teks-lima p:nth-child(3),
+  Table .enam .teks-enam p:nth-child(3),
+  Table .tujuh .teks-tujuh p:nth-child(3),
+  Table .delapan .teks-delapan p:nth-child(3),
+  Table .sembilan .teks-sembilan p:nth-child(3),
+  table .sepuluh .teks-sepuluh p:nth-child(3),
+  table .sebelas .teks-sebelas p:nth-child(3),
+  table .duabelas .teks-duabelas p:nth-child(3),
+  table .tigabelas .teks-tigabelas p:nth-child(3),
+  table .empatbelas .teks-empatbelas p:nth-child(3),
+  table .limabelas .teks-limabelas p:nth-child(3),
+  table .enambelas .teks-enambelas p:nth-child(3),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(3),
+  table .delapanbelas .teks-delapanbelas p:nth-child(3),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(3),
+  table .duapuluh .teks-duapuluh p:nth-child(3),
+  table .duasatu .teks-duasatu p:nth-child(3),
+  table .duadua .teks-duadua p:nth-child(3),
+  table .duatiga .teks-duatiga p:nth-child(3),
+  table .duaempat .teks-duaempat p:nth-child(3),
+  table .dualima .teks-dualima p:nth-child(3),
+  table .duaenam .teks-duaenam p:nth-child(3),
+  table .duatujuh .teks-duatujuh p:nth-child(3),
+  table .duadelapan .teks-duadelapan p:nth-child(3),
+  table .duasembilan .teks-duasembilan p:nth-child(3),
+  table .tigapuluh .teks-tigapuluh p:nth-child(3),
+  table .tigasatu .teks-tigasatu p:nth-child(3),
+  table .tigadua .teks-tigadua p:nth-child(3),
+  table .tigatiga .teks-tigatiga p:nth-child(3),
+  table .tigaempat .teks-tigaempat p:nth-child(3),
+  table .tigalima .teks-tigalima p:nth-child(3) {
+    font-weight: 600;
+    font-size: 11px;
+  }
+  Table .dua .teks-dua p:nth-child(4),
+  Table .tiga .teks-tiga p:nth-child(4),
+  Table .empat .teks-empat p:nth-child(4),
+  Table .lima .teks-lima p:nth-child(4),
+  Table .enam .teks-enam p:nth-child(4),
+  Table .tujuh .teks-tujuh p:nth-child(4),
+  Table .delapan .teks-delapan p:nth-child(4),
+  Table .sembilan .teks-sembilan p:nth-child(4),
+  table .sepuluh .teks-sepuluh p:nth-child(4),
+  table .sebelas .teks-sebelas p:nth-child(4),
+  table .duabelas .teks-duabelas p:nth-child(4),
+  table .tigabelas .teks-tigabelas p:nth-child(4),
+  table .empatbelas .teks-empatbelas p:nth-child(4),
+  table .limabelas .teks-limabelas p:nth-child(4),
+  table .enambelas .teks-enambelas p:nth-child(4),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(4),
+  table .delapanbelas .teks-delapanbelas p:nth-child(4),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(4),
+  table .duapuluh .teks-duapuluh p:nth-child(4),
+  table .duasatu .teks-duasatu p:nth-child(4),
+  table .duadua .teks-duadua p:nth-child(4),
+  table .duatiga .teks-duatiga p:nth-child(4),
+  table .duaempat .teks-duaempat p:nth-child(4),
+  table .dualima .teks-dualima p:nth-child(4),
+  table .duaenam .teks-duaenam p:nth-child(4),
+  table .duatujuh .teks-duatujuh p:nth-child(4),
+  table .duadelapan .teks-duadelapan p:nth-child(4),
+  table .duasembilan .teks-duasembilan p:nth-child(4),
+  table .tigapuluh .teks-tigapuluh p:nth-child(4),
+  table .tigasatu .teks-tigasatu p:nth-child(4),
+  table .tigadua .teks-tigadua p:nth-child(4),
+  table .tigatiga .teks-tigatiga p:nth-child(4),
+  table .tigaempat .teks-tigaempat p:nth-child(4),
+  table .tigalima .teks-tigalima p:nth-child(4) {
+    font-weight: 600;
+    font-size: 11px;
+  }
+}
+
+/* HP LANSCAPE */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  section {
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 8%;
+  }
+  .bg-rumah-kiri {
+    height: 100%;
+    width: 250px;
+  }
+
+  hr.satu {
+    padding: 0;
+    margin: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 600px;
+    display: none;
+    z-index: -999;
+  }
+
+  .table-satu .satu,
+  .gambar-satu,
+  .teks-satu {
+    display: block;
+    width: 100%;
+  }
+  .table-dua .dua,
+  .gambar-dua,
+  .teks-dua {
+    display: block;
+    width: 100%;
+  }
+  .table-tiga .tiga,
+  .gambar-tiga,
+  .teks-tiga {
+    display: block;
+    width: 100%;
+  }
+  .table-empat .empat,
+  .gambar-empat,
+  .teks-empat {
+    display: block;
+    width: 100%;
+  }
+  .table-lima .lima,
+  .gambar-lima,
+  .teks-lima {
+    display: block;
+    width: 100%;
+  }
+  .table-enam .enam,
+  .gambar-enam,
+  .teks-enam {
+    display: block;
+    width: 100%;
+  }
+  .table-tujuh .tujuh,
+  .gambar-tujuh,
+  .teks-tujuh {
+    display: block;
+    width: 100%;
+  }
+  .table-delapan .delapan,
+  .gambar-delapan,
+  .teks-delapan {
+    display: block;
+    width: 100%;
+  }
+  .table-sembilan .sembilan,
+  .gambar-sembilan,
+  .teks-sembilan {
+    display: block;
+    width: 100%;
+  }
+  .table-sepuluh .sepuluh,
+  .gambar-sepuluh,
+  .teks-sepuluh {
+    display: block;
+    width: 100%;
+  }
+  .table-sebelas .sebelas,
+  .gambar-sebelas,
+  .teks-sebelas {
+    display: block;
+    width: 100%;
+  }
+  .table-duabelas .duabelas,
+  .gambar-duabelas,
+  .teks-duabelas {
+    display: block;
+    width: 100%;
+  }
+  .table-tigabelas .tigabelas,
+  .gambar-tigabelas,
+  .teks-tigabelas {
+    display: block;
+    width: 100%;
+  }
+  .table-empatbelas .empatbelas,
+  .gambar-empatbelas,
+  .teks-empatbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-limabelas .limabelas,
+  .gambar-limabelas,
+  .teks-limabelas {
+    display: block;
+    width: 100%;
+  }
+  .table-enambelas .enambelas,
+  .gambar-enambelas,
+  .teks-enambelas {
+    display: block;
+    width: 100%;
+  }
+  .table-tujuhbelas .tujuhbelas,
+  .gambar-tujuhbelas,
+  .teks-tujuhbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-delapanbelas .delapanbelas,
+  .gambar-delapanbelas,
+  .teks-delapanbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-sembilanbelas .sembilanbelas,
+  .gambar-sembilanbelas,
+  .teks-sembilanbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-duapuluh .duapuluh,
+  .gambar-duapuluh,
+  .teks-duapuluh {
+    display: block;
+    width: 100%;
+  }
+  .table-duasatu .duasatu,
+  .gambar-duasatu,
+  .teks-duasatu {
+    display: block;
+    width: 100%;
+  }
+  .table-duadua .duadua,
+  .gambar-duadua,
+  .teks-duadua {
+    display: block;
+    width: 100%;
+  }
+  .table-duatiga .duatiga,
+  .gambar-duatiga,
+  .teks-duatiga {
+    display: block;
+    width: 100%;
+  }
+  .table-duaempat .duaempat,
+  .gambar-duaempat,
+  .teks-duaempat {
+    display: block;
+    width: 100%;
+  }
+  .table-dualima .dualima,
+  .gambar-dualima,
+  .teks-dualima {
+    display: block;
+    width: 100%;
+  }
+  .table-duaenam .duaenam,
+  .gambar-duaenam,
+  .teks-duaenam {
+    display: block;
+    width: 100%;
+  }
+  .table-duatujuh .duatujuh,
+  .gambar-duatujuh,
+  .teks-duatujuh {
+    display: block;
+    width: 100%;
+  }
+  .table-duadelapan .duadelapan,
+  .gambar-duadelapan,
+  .teks-duadelapan {
+    display: block;
+    width: 100%;
+  }
+  .table-duasembilan .duasembilan,
+  .gambar-duasembilan,
+  .teks-duasembilan {
+    display: block;
+    width: 100%;
+  }
+  .table-tigapuluh .tigapuluh,
+  .gambar-tigapuluh,
+  .teks-tigapuluh {
+    display: block;
+    width: 100%;
+  }
+  .table-tigasatu .tigasatu,
+  .gambar-tigasatu,
+  .teks-tigasatu {
+    display: block;
+    width: 100%;
+  }
+  .table-tigadua .tigadua,
+  .gambar-tigadua,
+  .teks-tigadua {
+    display: block;
+    width: 100%;
+  }
+  .table-tigatiga .tigatiga,
+  .gambar-tigatiga,
+  .teks-tigatiga {
+    display: block;
+    width: 100%;
+  }
+  .table-tigaempat .tigaempat,
+  .gambar-tigaempat,
+  .teks-tigaempat {
+    display: block;
+    width: 100%;
+  }
+  .table-tigalima .tigalima,
+  .gambar-tigalima,
+  .teks-tigalima {
+    display: block;
+    width: 100%;
+  }
+
+  .table-satu {
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: -5%;
+  }
+  .satu {
+    width: 100%;
+  }
+
+  table .satu .gambar-satu {
+    width: 100%;
+    margin-left: 20px;
+  }
+  table .satu .teks-satu {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    margin-top: 1rem;
+    margin-left: 20px;
+    box-shadow: none;
+  }
+
+  table .satu .teks-satu p:nth-child(1) {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 0px;
+    width: 11%;
+  }
+
+  table .satu .teks-satu p:nth-child(3) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 55%;
+  }
+  table .satu .teks-satu p:nth-child(4) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 35%;
+    margin-left: -5%;
+  }
+
+  hr.dua,
+  hr.tiga,
+  hr.empat,
+  hr.lima,
+  hr.enam,
+  hr.tujuh,
+  hr.delapan,
+  hr.sembilan,
+  hr.sepuluh,
+  hr.sebelas,
+  hr.duabelas,
+  hr.tigabelas,
+  hr.empatbelas,
+  hr.limabelas,
+  hr.enambelas,
+  hr.tujuhbelas,
+  hr.delapanbelas,
+  hr.sembilanbelas,
+  hr.duapuluh,
+  hr.duasatu,
+  hr.duadua,
+  hr.duatiga,
+  hr.duaempat,
+  hr.dualima,
+  hr.duaenam,
+  hr.duatujuh,
+  hr.duadelapan,
+  hr.duasembilan,
+  hr.tigapuluh,
+  hr.tigasatu,
+  hr.tigadua,
+  hr.tigatiga,
+  hr.tigaempat,
+  hr.tigalima {
+    padding: 0;
+    margin: 100rem;
+    position: absolute;
+    right: 0;
+    bottom: 190px;
+    z-index: -999;
+  }
+
+  .table-dua,
+  .table-tiga,
+  .table-empat,
+  .table-lima,
+  .table-enam,
+  .table-tujuh,
+  .table-delapan,
+  .table-sembilan,
+  .table-sepuluh,
+  .table-sebelas,
+  .table-duabelas,
+  .table-tigabelas,
+  .table-empatbelas,
+  .table-limabelas,
+  .table-enambelas,
+  .table-tujuhbelas,
+  .table-delapanbelas,
+  .table-sembilanbelas,
+  .table-duapuluh,
+  .table-duasatu,
+  .table-duadua,
+  .table-duatiga,
+  .table-duaempat,
+  .table-dualima,
+  .table-duaenam,
+  .table-duatujuh,
+  .table-duadelapan,
+  .table-duasembilan,
+  .table-tigapuluh,
+  .table-tigasatu,
+  .table-tigadua,
+  .table-tigatiga,
+  .table-tigaempat,
+  .table-tigalima {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: -5%;
+  }
+
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan,
+  .sepuluh,
+  .sebelas,
+  .duabelas,
+  .tigabelas,
+  .empatbelas,
+  .limabelas,
+  .enambelas,
+  .tujuhbelas,
+  .delapanbelas,
+  .sembilanbelas,
+  .duapuluh,
+  .duasatu,
+  .duadua,
+  .duatiga,
+  .duaempat,
+  .dualima,
+  .duaenam,
+  .duatujuh,
+  .duadelapan,
+  .duasembilan,
+  .tigapuluh,
+  .tigasatu,
+  .tigadua,
+  .tigatiga,
+  .tigaempat,
+  .tigalima {
+    width: 100%;
+  }
+
+  Table .dua .gambar-dua,
+  Table .tiga .gambar-tiga,
+  Table .empat .gambar-empat,
+  Table .lima .gambar-lima {
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  Table .enam .gambar-enam,
+  Table .tujuh .gambar-tujuh,
+  Table .delapan .gambar-delapan,
+  Table .sembilan .gambar-sembilan,
+  table .sepuluh .gambar-sepuluh,
+  table .sebelas .gambar-sebelas,
+  table .duabelas .gambar-duabelas,
+  table .tigabelas .gambar-tigabelas,
+  table .empatbelas .gambar-empatbelas,
+  table .limabelas .gambar-limabelas,
+  table .enambelas .gambar-enambelas,
+  table .tujuhbelas .gambar-tujuhbelas,
+  table .delapanbelas .gambar-delapanbelas,
+  table .sembilanbelas .gambar-sembilanbelas,
+  table .duapuluh .gambar-duapuluh,
+  table .duasatu .gambar-duasatu,
+  table .duadua .gambar-duadua,
+  table .duatiga .gambar-duatiga,
+  table .duaempat .gambar-duaempat,
+  table .dualima .gambar-dualima,
+  table .duaenam .gambar-duaenam,
+  table .duatujuh .gambar-duatujuh,
+  table .duadelapan .gambar-duadelapan,
+  table .duasembilan .gambar-duasembilan,
+  table .tigapuluh .gambar-tigapuluh,
+  table .tigasatu .gambar-tigasatu,
+  table .tigadua .gambar-tigadua,
+  table .tigatiga .gambar-tigatiga,
+  table .tigaempat .gambar-tigaempat,
+  table .tigalima .gambar-tigalima {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  Table .dua .teks-dua,
+  Table .tiga .teks-tiga,
+  Table .empat .teks-empat,
+  Table .lima .teks-lima,
+  Table .enam .teks-enam,
+  Table .tujuh .teks-tujuh,
+  Table .delapan .teks-delapan,
+  Table .sembilan .teks-sembilan,
+  table .sepuluh .teks-sepuluh,
+  table .sebelas .teks-sebelas,
+  table .duabelas .teks-duabelas,
+  table .tigabelas .teks-tigabelas,
+  table .empatbelas .teks-empatbelas,
+  table .limabelas .teks-limabelas,
+  table .enambelas .teks-enambelas,
+  table .tujuhbelas .teks-tujuhbelas,
+  table .delapanbelas .teks-delapanbelas,
+  table .sembilanbelas .teks-sembilanbelas,
+  table .duapuluh .teks-duapuluh,
+  table .duasatu .teks-duasatu,
+  table .duadua .teks-duadua,
+  table .duatiga .teks-duatiga,
+  table .duaempat .teks-duaempat,
+  table .dualima .teks-dualima,
+  table .duaenam .teks-duaenam,
+  table .duatujuh .teks-duatujuh,
+  table .duadelapan .teks-duadelapan,
+  table .duasembilan .teks-duasembilan,
+  table .tigapuluh .teks-tigapuluh,
+  table .tigasatu .teks-tigasatu,
+  table .tigadua .teks-tigadua,
+  table .tigatiga .teks-tigatiga,
+  table .tigaempat .teks-tigaempat,
+  table .tigalima .teks-tigalima {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    margin-top: 1rem;
+    margin-left: 20px;
+    box-shadow: none;
+  }
+
+  Table .dua .teks-dua p:nth-child(1),
+  Table .tiga .teks-tiga p:nth-child(1),
+  Table .empat .teks-empat p:nth-child(1),
+  Table .lima .teks-lima p:nth-child(1),
+  Table .enam .teks-enam p:nth-child(1),
+  Table .tujuh .teks-tujuh p:nth-child(1),
+  Table .delapan .teks-delapan p:nth-child(1),
+  Table .sembilan .teks-sembilan p:nth-child(1),
+  table .sepuluh .teks-sepuluh p:nth-child(1),
+  table .sebelas .teks-sebelas p:nth-child(1),
+  table .duabelas .teks-duabelas p:nth-child(1),
+  table .tigabelas .teks-tigabelas p:nth-child(1),
+  table .empatbelas .teks-empatbelas p:nth-child(1),
+  table .limabelas .teks-limabelas p:nth-child(1),
+  table .enambelas .teks-enambelas p:nth-child(1),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(1),
+  table .delapanbelas .teks-delapanbelas p:nth-child(1),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(1),
+  table .duapuluh .teks-duapuluh p:nth-child(1),
+  table .duasatu .teks-duasatu p:nth-child(1),
+  table .duadua .teks-duadua p:nth-child(1),
+  table .duatiga .teks-duatiga p:nth-child(1),
+  table .duaempat .teks-duaempat p:nth-child(1),
+  table .dualima .teks-dualima p:nth-child(1),
+  table .duaenam .teks-duaenam p:nth-child(1),
+  table .duatujuh .teks-duatujuh p:nth-child(1),
+  table .duadelapan .teks-duadelapan p:nth-child(1),
+  table .duasembilan .teks-duasembilan p:nth-child(1),
+  table .tigapuluh .teks-tigapuluh p:nth-child(1),
+  table .tigasatu .teks-tigasatu p:nth-child(1),
+  table .tigadua .teks-tigadua p:nth-child(1),
+  table .tigatiga .teks-tigatiga p:nth-child(1),
+  table .tigaempat .teks-tigaempat p:nth-child(1),
+  table .tigalima .teks-tigalima p:nth-child(1) {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 0px;
+    width: 11%;
+  }
+
+  Table .dua .teks-dua p:nth-child(3),
+  Table .tiga .teks-tiga p:nth-child(3),
+  Table .empat .teks-empat p:nth-child(3),
+  Table .lima .teks-lima p:nth-child(3),
+  Table .enam .teks-enam p:nth-child(3),
+  Table .tujuh .teks-tujuh p:nth-child(3),
+  Table .delapan .teks-delapan p:nth-child(3),
+  Table .sembilan .teks-sembilan p:nth-child(3),
+  table .sepuluh .teks-sepuluh p:nth-child(3),
+  table .sebelas .teks-sebelas p:nth-child(3),
+  table .duabelas .teks-duabelas p:nth-child(3),
+  table .tigabelas .teks-tigabelas p:nth-child(3),
+  table .empatbelas .teks-empatbelas p:nth-child(3),
+  table .limabelas .teks-limabelas p:nth-child(3),
+  table .enambelas .teks-enambelas p:nth-child(3),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(3),
+  table .delapanbelas .teks-delapanbelas p:nth-child(3),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(3),
+  table .duapuluh .teks-duapuluh p:nth-child(3),
+  table .duasatu .teks-duasatu p:nth-child(3),
+  table .duadua .teks-duadua p:nth-child(3),
+  table .duatiga .teks-duatiga p:nth-child(3),
+  table .duaempat .teks-duaempat p:nth-child(3),
+  table .dualima .teks-dualima p:nth-child(3),
+  table .duaenam .teks-duaenam p:nth-child(3),
+  table .duatujuh .teks-duatujuh p:nth-child(3),
+  table .duadelapan .teks-duadelapan p:nth-child(3),
+  table .duasembilan .teks-duasembilan p:nth-child(3),
+  table .tigapuluh .teks-tigapuluh p:nth-child(3),
+  table .tigasatu .teks-tigasatu p:nth-child(3),
+  table .tigadua .teks-tigadua p:nth-child(3),
+  table .tigatiga .teks-tigatiga p:nth-child(3),
+  table .tigaempat .teks-tigaempat p:nth-child(3),
+  table .tigalima .teks-tigalima p:nth-child(3) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 55%;
+  }
+  Table .dua .teks-dua p:nth-child(4),
+  Table .tiga .teks-tiga p:nth-child(4),
+  Table .empat .teks-empat p:nth-child(4),
+  Table .lima .teks-lima p:nth-child(4),
+  Table .enam .teks-enam p:nth-child(4),
+  Table .tujuh .teks-tujuh p:nth-child(4),
+  Table .delapan .teks-delapan p:nth-child(4),
+  Table .sembilan .teks-sembilan p:nth-child(4),
+  table .sepuluh .teks-sepuluh p:nth-child(4),
+  table .sebelas .teks-sebelas p:nth-child(4),
+  table .duabelas .teks-duabelas p:nth-child(4),
+  table .tigabelas .teks-tigabelas p:nth-child(4),
+  table .empatbelas .teks-empatbelas p:nth-child(4),
+  table .limabelas .teks-limabelas p:nth-child(4),
+  table .enambelas .teks-enambelas p:nth-child(4),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(4),
+  table .delapanbelas .teks-delapanbelas p:nth-child(4),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(4),
+  table .duapuluh .teks-duapuluh p:nth-child(4),
+  table .duasatu .teks-duasatu p:nth-child(4),
+  table .duadua .teks-duadua p:nth-child(4),
+  table .duatiga .teks-duatiga p:nth-child(4),
+  table .duaempat .teks-duaempat p:nth-child(4),
+  table .dualima .teks-dualima p:nth-child(4),
+  table .duaenam .teks-duaenam p:nth-child(4),
+  table .duatujuh .teks-duatujuh p:nth-child(4),
+  table .duadelapan .teks-duadelapan p:nth-child(4),
+  table .duasembilan .teks-duasembilan p:nth-child(4),
+  table .tigapuluh .teks-tigapuluh p:nth-child(4),
+  table .tigasatu .teks-tigasatu p:nth-child(4),
+  table .tigadua .teks-tigadua p:nth-child(4),
+  table .tigatiga .teks-tigatiga p:nth-child(4),
+  table .tigaempat .teks-tigaempat p:nth-child(4),
+  table .tigalima .teks-tigalima p:nth-child(4) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 35%;
+    margin-left: -5%;
+  }
+}
+
+/* HP POTRAIT */
+@media screen and (min-width: 250px) and (max-width: 575px) {
+  section {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-right: 8%;
+  }
+  .bg-rumah-kiri {
+    height: 100%;
+    width: 250px;
+  }
+
+  hr.satu {
+    padding: 0;
+    margin: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 600px;
+    display: none;
+    z-index: -999;
+  }
+
+  .table-satu .satu,
+  .gambar-satu,
+  .teks-satu {
+    display: block;
+    width: 100%;
+  }
+  .table-dua .dua,
+  .gambar-dua,
+  .teks-dua {
+    display: block;
+    width: 100%;
+  }
+  .table-tiga .tiga,
+  .gambar-tiga,
+  .teks-tiga {
+    display: block;
+    width: 100%;
+  }
+  .table-empat .empat,
+  .gambar-empat,
+  .teks-empat {
+    display: block;
+    width: 100%;
+  }
+  .table-lima .lima,
+  .gambar-lima,
+  .teks-lima {
+    display: block;
+    width: 100%;
+  }
+  .table-enam .enam,
+  .gambar-enam,
+  .teks-enam {
+    display: block;
+    width: 100%;
+  }
+  .table-tujuh .tujuh,
+  .gambar-tujuh,
+  .teks-tujuh {
+    display: block;
+    width: 100%;
+  }
+  .table-delapan .delapan,
+  .gambar-delapan,
+  .teks-delapan {
+    display: block;
+    width: 100%;
+  }
+  .table-sembilan .sembilan,
+  .gambar-sembilan,
+  .teks-sembilan {
+    display: block;
+    width: 100%;
+  }
+  .table-sepuluh .sepuluh,
+  .gambar-sepuluh,
+  .teks-sepuluh {
+    display: block;
+    width: 100%;
+  }
+  .table-sebelas .sebelas,
+  .gambar-sebelas,
+  .teks-sebelas {
+    display: block;
+    width: 100%;
+  }
+  .table-duabelas .duabelas,
+  .gambar-duabelas,
+  .teks-duabelas {
+    display: block;
+    width: 100%;
+  }
+  .table-tigabelas .tigabelas,
+  .gambar-tigabelas,
+  .teks-tigabelas {
+    display: block;
+    width: 100%;
+  }
+  .table-empatbelas .empatbelas,
+  .gambar-empatbelas,
+  .teks-empatbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-limabelas .limabelas,
+  .gambar-limabelas,
+  .teks-limabelas {
+    display: block;
+    width: 100%;
+  }
+  .table-enambelas .enambelas,
+  .gambar-enambelas,
+  .teks-enambelas {
+    display: block;
+    width: 100%;
+  }
+  .table-tujuhbelas .tujuhbelas,
+  .gambar-tujuhbelas,
+  .teks-tujuhbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-delapanbelas .delapanbelas,
+  .gambar-delapanbelas,
+  .teks-delapanbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-sembilanbelas .sembilanbelas,
+  .gambar-sembilanbelas,
+  .teks-sembilanbelas {
+    display: block;
+    width: 100%;
+  }
+  .table-duapuluh .duapuluh,
+  .gambar-duapuluh,
+  .teks-duapuluh {
+    display: block;
+    width: 100%;
+  }
+  .table-duasatu .duasatu,
+  .gambar-duasatu,
+  .teks-duasatu {
+    display: block;
+    width: 100%;
+  }
+  .table-duadua .duadua,
+  .gambar-duadua,
+  .teks-duadua {
+    display: block;
+    width: 100%;
+  }
+  .table-duatiga .duatiga,
+  .gambar-duatiga,
+  .teks-duatiga {
+    display: block;
+    width: 100%;
+  }
+  .table-duaempat .duaempat,
+  .gambar-duaempat,
+  .teks-duaempat {
+    display: block;
+    width: 100%;
+  }
+  .table-dualima .dualima,
+  .gambar-dualima,
+  .teks-dualima {
+    display: block;
+    width: 100%;
+  }
+  .table-duaenam .duaenam,
+  .gambar-duaenam,
+  .teks-duaenam {
+    display: block;
+    width: 100%;
+  }
+  .table-duatujuh .duatujuh,
+  .gambar-duatujuh,
+  .teks-duatujuh {
+    display: block;
+    width: 100%;
+  }
+  .table-duadelapan .duadelapan,
+  .gambar-duadelapan,
+  .teks-duadelapan {
+    display: block;
+    width: 100%;
+  }
+  .table-duasembilan .duasembilan,
+  .gambar-duasembilan,
+  .teks-duasembilan {
+    display: block;
+    width: 100%;
+  }
+  .table-tigapuluh .tigapuluh,
+  .gambar-tigapuluh,
+  .teks-tigapuluh {
+    display: block;
+    width: 100%;
+  }
+  .table-tigasatu .tigasatu,
+  .gambar-tigasatu,
+  .teks-tigasatu {
+    display: block;
+    width: 100%;
+  }
+  .table-tigadua .tigadua,
+  .gambar-tigadua,
+  .teks-tigadua {
+    display: block;
+    width: 100%;
+  }
+  .table-tigatiga .tigatiga,
+  .gambar-tigatiga,
+  .teks-tigatiga {
+    display: block;
+    width: 100%;
+  }
+  .table-tigaempat .tigaempat,
+  .gambar-tigaempat,
+  .teks-tigaempat {
+    display: block;
+    width: 100%;
+  }
+  .table-tigalima .tigalima,
+  .gambar-tigalima,
+  .teks-tigalima {
+    display: block;
+    width: 100%;
+  }
+
+  .table-satu {
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: -5%;
+  }
+  .satu {
+    width: 100%;
+  }
+
+  table .satu .gambar-satu {
+    width: 100%;
+    margin-left: 20px;
+  }
+  table .satu .teks-satu {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    margin-top: 1rem;
+    margin-left: 20px;
+    box-shadow: none;
+  }
+
+  table .satu .teks-satu p:nth-child(1) {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 0px;
+    width: 11%;
+  }
+
+  table .satu .teks-satu p:nth-child(3) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 55%;
+  }
+  table .satu .teks-satu p:nth-child(4) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 35%;
+    margin-left: -5%;
+  }
+
+  hr.dua,
+  hr.tiga,
+  hr.empat,
+  hr.lima,
+  hr.enam,
+  hr.tujuh,
+  hr.delapan,
+  hr.sembilan,
+  hr.sepuluh,
+  hr.sebelas,
+  hr.duabelas,
+  hr.tigabelas,
+  hr.empatbelas,
+  hr.limabelas,
+  hr.enambelas,
+  hr.tujuhbelas,
+  hr.delapanbelas,
+  hr.sembilanbelas,
+  hr.duapuluh,
+  hr.duasatu,
+  hr.duadua,
+  hr.duatiga,
+  hr.duaempat,
+  hr.dualima,
+  hr.duaenam,
+  hr.duatujuh,
+  hr.duadelapan,
+  hr.duasembilan,
+  hr.tigapuluh,
+  hr.tigasatu,
+  hr.tigadua,
+  hr.tigatiga,
+  hr.tigaempat,
+  hr.tigalima {
+    padding: 0;
+    margin: 100rem;
+    position: absolute;
+    right: 0;
+    bottom: 190px;
+    z-index: -999;
+  }
+
+  .table-dua,
+  .table-tiga,
+  .table-empat,
+  .table-lima,
+  .table-enam,
+  .table-tujuh,
+  .table-delapan,
+  .table-sembilan,
+  .table-sepuluh,
+  .table-sebelas,
+  .table-duabelas,
+  .table-tigabelas,
+  .table-empatbelas,
+  .table-limabelas,
+  .table-enambelas,
+  .table-tujuhbelas,
+  .table-delapanbelas,
+  .table-sembilanbelas,
+  .table-duapuluh,
+  .table-duasatu,
+  .table-duadua,
+  .table-duatiga,
+  .table-duaempat,
+  .table-dualima,
+  .table-duaenam,
+  .table-duatujuh,
+  .table-duadelapan,
+  .table-duasembilan,
+  .table-tigapuluh,
+  .table-tigasatu,
+  .table-tigadua,
+  .table-tigatiga,
+  .table-tigaempat,
+  .table-tigalima {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-left: -5%;
+  }
+
+  .dua,
+  .tiga,
+  .empat,
+  .lima,
+  .enam,
+  .tujuh,
+  .delapan,
+  .sembilan,
+  .sepuluh,
+  .sebelas,
+  .duabelas,
+  .tigabelas,
+  .empatbelas,
+  .limabelas,
+  .enambelas,
+  .tujuhbelas,
+  .delapanbelas,
+  .sembilanbelas,
+  .duapuluh,
+  .duasatu,
+  .duadua,
+  .duatiga,
+  .duaempat,
+  .dualima,
+  .duaenam,
+  .duatujuh,
+  .duadelapan,
+  .duasembilan,
+  .tigapuluh,
+  .tigasatu,
+  .tigadua,
+  .tigatiga,
+  .tigaempat,
+  .tigalima {
+    width: 100%;
+  }
+
+  Table .dua .gambar-dua,
+  Table .tiga .gambar-tiga,
+  Table .empat .gambar-empat,
+  Table .lima .gambar-lima,
+  Table .enam .gambar-enam,
+  Table .tujuh .gambar-tujuh,
+  Table .delapan .gambar-delapan,
+  Table .sembilan .gambar-sembilan,
+  table .sepuluh .gambar-sepuluh,
+  table .sebelas .gambar-sebelas,
+  table .duabelas .gambar-duabelas,
+  table .tigabelas .gambar-tigabelas,
+  table .empatbelas .gambar-empatbelas,
+  table .limabelas .gambar-limabelas,
+  table .enambelas .gambar-enambelas,
+  table .tujuhbelas .gambar-tujuhbelas,
+  table .delapanbelas .gambar-delapanbelas,
+  table .sembilanbelas .gambar-sembilanbelas,
+  table .duapuluh .gambar-duapuluh,
+  table .duasatu .gambar-duasatu,
+  table .duadua .gambar-duadua,
+  table .duatiga .gambar-duatiga,
+  table .duaempat .gambar-duaempat,
+  table .dualima .gambar-dualima,
+  table .duaenam .gambar-duaenam,
+  table .duatujuh .gambar-duatujuh,
+  table .duadelapan .gambar-duadelapan,
+  table .duasembilan .gambar-duasembilan,
+  table .tigapuluh .gambar-tigapuluh,
+  table .tigasatu .gambar-tigasatu,
+  table .tigadua .gambar-tigadua,
+  table .tigatiga .gambar-tigatiga,
+  table .tigaempat .gambar-tigaempat,
+  table .tigalima .gambar-tigalima {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  Table .dua .teks-dua,
+  Table .tiga .teks-tiga,
+  Table .empat .teks-empat,
+  Table .lima .teks-lima {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    margin-top: 1rem;
+    margin-left: 20px;
+    box-shadow: none;
+  }
+
+  Table .enam .teks-enam,
+  Table .tujuh .teks-tujuh,
+  Table .delapan .teks-delapan,
+  Table .sembilan .teks-sembilan,
+  table .sepuluh .teks-sepuluh,
+  table .sebelas .teks-sebelas,
+  table .duabelas .teks-duabelas,
+  table .tigabelas .teks-tigabelas,
+  table .empatbelas .teks-empatbelas,
+  table .limabelas .teks-limabelas,
+  table .enambelas .teks-enambelas,
+  table .tujuhbelas .teks-tujuhbelas,
+  table .delapanbelas .teks-delapanbelas,
+  table .sembilanbelas .teks-sembilanbelas,
+  table .duapuluh .teks-duapuluh,
+  table .duasatu .teks-duasatu,
+  table .duadua .teks-duadua,
+  table .duatiga .teks-duatiga,
+  table .duaempat .teks-duaempat,
+  table .dualima .teks-dualima,
+  table .duaenam .teks-duaenam,
+  table .duatujuh .teks-duatujuh,
+  table .duadelapan .teks-duadelapan,
+  table .duasembilan .teks-duasembilan,
+  table .tigapuluh .teks-tigapuluh,
+  table .tigasatu .teks-tigasatu,
+  table .tigadua .teks-tigadua,
+  table .tigatiga .teks-tigatiga,
+  table .tigaempat .teks-tigaempat,
+  table .tigalima .teks-tigalima {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 130px;
+    margin-top: 1rem;
+    margin-left: 20px;
+    box-shadow: none;
+  }
+
+  Table .dua .teks-dua p:nth-child(1),
+  Table .tiga .teks-tiga p:nth-child(1),
+  Table .empat .teks-empat p:nth-child(1),
+  Table .lima .teks-lima p:nth-child(1),
+  Table .enam .teks-enam p:nth-child(1),
+  Table .tujuh .teks-tujuh p:nth-child(1),
+  Table .delapan .teks-delapan p:nth-child(1),
+  Table .sembilan .teks-sembilan p:nth-child(1),
+  table .sepuluh .teks-sepuluh p:nth-child(1),
+  table .sebelas .teks-sebelas p:nth-child(1),
+  table .duabelas .teks-duabelas p:nth-child(1),
+  table .tigabelas .teks-tigabelas p:nth-child(1),
+  table .empatbelas .teks-empatbelas p:nth-child(1),
+  table .limabelas .teks-limabelas p:nth-child(1),
+  table .enambelas .teks-enambelas p:nth-child(1),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(1),
+  table .delapanbelas .teks-delapanbelas p:nth-child(1),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(1),
+  table .duapuluh .teks-duapuluh p:nth-child(1),
+  table .duasatu .teks-duasatu p:nth-child(1),
+  table .duadua .teks-duadua p:nth-child(1),
+  table .duatiga .teks-duatiga p:nth-child(1),
+  table .duaempat .teks-duaempat p:nth-child(1),
+  table .dualima .teks-dualima p:nth-child(1),
+  table .duaenam .teks-duaenam p:nth-child(1),
+  table .duatujuh .teks-duatujuh p:nth-child(1),
+  table .duadelapan .teks-duadelapan p:nth-child(1),
+  table .duasembilan .teks-duasembilan p:nth-child(1),
+  table .tigapuluh .teks-tigapuluh p:nth-child(1),
+  table .tigasatu .teks-tigasatu p:nth-child(1),
+  table .tigadua .teks-tigadua p:nth-child(1),
+  table .tigatiga .teks-tigatiga p:nth-child(1),
+  table .tigaempat .teks-tigaempat p:nth-child(1),
+  table .tigalima .teks-tigalima p:nth-child(1) {
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 0px;
+    width: 11%;
+  }
+
+  Table .dua .teks-dua p:nth-child(3),
+  Table .tiga .teks-tiga p:nth-child(3),
+  Table .empat .teks-empat p:nth-child(3),
+  Table .lima .teks-lima p:nth-child(3),
+  Table .enam .teks-enam p:nth-child(3),
+  Table .tujuh .teks-tujuh p:nth-child(3),
+  Table .delapan .teks-delapan p:nth-child(3),
+  Table .sembilan .teks-sembilan p:nth-child(3),
+  table .sepuluh .teks-sepuluh p:nth-child(3),
+  table .sebelas .teks-sebelas p:nth-child(3),
+  table .duabelas .teks-duabelas p:nth-child(3),
+  table .tigabelas .teks-tigabelas p:nth-child(3),
+  table .empatbelas .teks-empatbelas p:nth-child(3),
+  table .limabelas .teks-limabelas p:nth-child(3),
+  table .enambelas .teks-enambelas p:nth-child(3),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(3),
+  table .delapanbelas .teks-delapanbelas p:nth-child(3),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(3),
+  table .duapuluh .teks-duapuluh p:nth-child(3),
+  table .duasatu .teks-duasatu p:nth-child(3),
+  table .duadua .teks-duadua p:nth-child(3),
+  table .duatiga .teks-duatiga p:nth-child(3),
+  table .duaempat .teks-duaempat p:nth-child(3),
+  table .dualima .teks-dualima p:nth-child(3),
+  table .duaenam .teks-duaenam p:nth-child(3),
+  table .duatujuh .teks-duatujuh p:nth-child(3),
+  table .duadelapan .teks-duadelapan p:nth-child(3),
+  table .duasembilan .teks-duasembilan p:nth-child(3),
+  table .tigapuluh .teks-tigapuluh p:nth-child(3),
+  table .tigasatu .teks-tigasatu p:nth-child(3),
+  table .tigadua .teks-tigadua p:nth-child(3),
+  table .tigatiga .teks-tigatiga p:nth-child(3),
+  table .tigaempat .teks-tigaempat p:nth-child(3),
+  table .tigalima .teks-tigalima p:nth-child(3) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 55%;
+  }
+  Table .dua .teks-dua p:nth-child(4),
+  Table .tiga .teks-tiga p:nth-child(4),
+  Table .empat .teks-empat p:nth-child(4),
+  Table .lima .teks-lima p:nth-child(4),
+  Table .enam .teks-enam p:nth-child(4),
+  Table .tujuh .teks-tujuh p:nth-child(4),
+  Table .delapan .teks-delapan p:nth-child(4),
+  Table .sembilan .teks-sembilan p:nth-child(4),
+  table .sepuluh .teks-sepuluh p:nth-child(4),
+  table .sebelas .teks-sebelas p:nth-child(4),
+  table .duabelas .teks-duabelas p:nth-child(4),
+  table .tigabelas .teks-tigabelas p:nth-child(4),
+  table .empatbelas .teks-empatbelas p:nth-child(4),
+  table .limabelas .teks-limabelas p:nth-child(4),
+  table .enambelas .teks-enambelas p:nth-child(4),
+  table .tujuhbelas .teks-tujuhbelas p:nth-child(4),
+  table .delapanbelas .teks-delapanbelas p:nth-child(4),
+  table .sembilanbelas .teks-sembilanbelas p:nth-child(4),
+  table .duapuluh .teks-duapuluh p:nth-child(4),
+  table .duasatu .teks-duasatu p:nth-child(4),
+  table .duadua .teks-duadua p:nth-child(4),
+  table .duatiga .teks-duatiga p:nth-child(4),
+  table .duaempat .teks-duaempat p:nth-child(4),
+  table .dualima .teks-dualima p:nth-child(4),
+  table .duaenam .teks-duaenam p:nth-child(4),
+  table .duatujuh .teks-duatujuh p:nth-child(4),
+  table .duadelapan .teks-duadelapan p:nth-child(4),
+  table .duasembilan .teks-duasembilan p:nth-child(4),
+  table .tigapuluh .teks-tigapuluh p:nth-child(4),
+  table .tigasatu .teks-tigasatu p:nth-child(4),
+  table .tigadua .teks-tigadua p:nth-child(4),
+  table .tigatiga .teks-tigatiga p:nth-child(4),
+  table .tigaempat .teks-tigaempat p:nth-child(4),
+  table .tigalima .teks-tigalima p:nth-child(4) {
+    font-weight: 600;
+    font-size: 10px;
+    width: 35%;
+    margin-left: -5%;
+  }
+}
